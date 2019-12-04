@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f9825ec5-04c2-4fa3-a671-02fcf59bae7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/example/WhiskyTracker/repositories/DistilleryRepository/DistilleryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/example/WhiskyTracker/repositories/DistilleryRepository/DistilleryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codeclan/example/WhiskyTracker/repositories/WhiskyRepository/WhiskyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codeclan/example/WhiskyTracker/repositories/WhiskyRepository/WhiskyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/codeclan/example/WhiskyTracker/WhiskyTrackerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/codeclan/example/WhiskyTracker/WhiskyTrackerApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +30,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WhiskyTrackerApplicationTests.canFindWhiskyByDistilleryAndAge">
+  <component name="RunManager" selected="JUnit.WhiskyTrackerApplicationTests.canFindDistilleryByWhiskyAge">
     <configuration name="WhiskyTrackerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.codeclan.example.WhiskyTracker.WhiskyTrackerApplication" />
       <module name="WhiskyTracker" />
@@ -57,6 +60,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhiskyTrackerApplicationTests.canFindDistilleryByWhiskyAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WhiskyTracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeclan.example.WhiskyTracker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codeclan.example.WhiskyTracker" />
+      <option name="MAIN_CLASS_NAME" value="com.codeclan.example.WhiskyTracker.WhiskyTrackerApplicationTests" />
+      <option name="METHOD_NAME" value="canFindDistilleryByWhiskyAge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WhiskyTrackerApplicationTests.canFindWhiskyByDistilleryAndAge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WhiskyTracker" />
       <extension name="coverage">
@@ -73,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhiskyTrackerApplicationTests.canFindWhiskyForYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WhiskyTrackerApplicationTests.canFindWhiskyByDistilleryRegion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WhiskyTracker" />
       <extension name="coverage">
         <pattern>
@@ -83,7 +102,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.codeclan.example.WhiskyTracker" />
       <option name="MAIN_CLASS_NAME" value="com.codeclan.example.WhiskyTracker.WhiskyTrackerApplicationTests" />
-      <option name="METHOD_NAME" value="canFindWhiskyForYear" />
+      <option name="METHOD_NAME" value="canFindWhiskyByDistilleryRegion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,10 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WhiskyTrackerApplicationTests.canFindDistilleryByWhiskyAge" />
+        <item itemvalue="JUnit.WhiskyTrackerApplicationTests.canFindWhiskyByDistilleryRegion" />
         <item itemvalue="JUnit.WhiskyTrackerApplicationTests.canFindWhiskyByDistilleryAndAge" />
         <item itemvalue="Application.WhiskyTrackerApplication" />
         <item itemvalue="JUnit.WhiskyTrackerApplicationTests.canFindDistilleryByRegion" />
-        <item itemvalue="JUnit.WhiskyTrackerApplicationTests.canFindWhiskyForYear" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +136,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
